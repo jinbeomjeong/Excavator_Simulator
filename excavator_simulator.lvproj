@@ -14,17 +14,46 @@
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="user.lib" Type="Folder">
+				<Item Name="Color_image_to_RGB_channel.vi" Type="VI" URL="/&lt;userlib&gt;/ImageProcess/Color_image_to_RGB_channel.vi"/>
+				<Item Name="RGB_Channel_cluster.ctl" Type="VI" URL="/&lt;userlib&gt;/Control/RGB_Channel_cluster.ctl"/>
+			</Item>
 			<Item Name="vi.lib" Type="Folder">
+				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
+				<Item Name="AviRefnum.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Avi1.llb/AviRefnum.ctl"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
+				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
+				<Item Name="Image Unit" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Unit"/>
+				<Item Name="IMAQ AVI Get Info" Type="VI" URL="/&lt;vilib&gt;/vision/Avi2.llb/IMAQ AVI Get Info"/>
+				<Item Name="IMAQ AVI Open" Type="VI" URL="/&lt;vilib&gt;/vision/Avi2.llb/IMAQ AVI Open"/>
+				<Item Name="IMAQ Create" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Create"/>
+				<Item Name="IMAQ GetFileInfo" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ GetFileInfo"/>
+				<Item Name="IMAQ Image.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Image.ctl"/>
+				<Item Name="IMAQ ImageToArray" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ ImageToArray"/>
+				<Item Name="IMAQ ReadFile" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ ReadFile"/>
+				<Item Name="LVDateTimeRec.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVDateTimeRec.ctl"/>
 				<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
+				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="niFpgaDdsAccum.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Analysis/siggen/SquareWave/templates/niFpgaDdsAccum.vi"/>
+				<Item Name="Simple Grid Descriptor" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Simple Grid Descriptor"/>
+				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
+				<Item Name="Stall Data Flow.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/Stall Data Flow.vim"/>
 				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
 				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
 				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
 			</Item>
+			<Item Name="BuildLoggingFilePath.vi" Type="VI" URL="../../ERP42_V11_20200205/SubVI/FileInputOutput.llb/BuildLoggingFilePath.vi"/>
+			<Item Name="getRelativeTime.vi" Type="VI" URL="../../ERP42_V11_20200205/SubVI/Timing.llb/getRelativeTime.vi"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="StringArrayToSeperate.vi" Type="VI" URL="../../ERP42_V11_20200205/SubVI/OperateString.llb/StringArrayToSeperate.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
@@ -397,16 +426,25 @@ AddOutputFilter chunkFilter
 		<Item Name="Real_Time_Main.vi" Type="VI" URL="../Real_Time/Real_Time_Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
+				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
+				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
+				<Item Name="Stall Data Flow.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/Stall Data Flow.vim"/>
 				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
 				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
 				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
 			</Item>
 			<Item Name="arm_cmd_to_duty.vi" Type="VI" URL="../Real_Time/sub_vi/arm_cmd_to_duty.vi"/>
 			<Item Name="bucket_cmd_to_duty.vi" Type="VI" URL="../Real_Time/sub_vi/bucket_cmd_to_duty.vi"/>
+			<Item Name="BuildLoggingFilePath.vi" Type="VI" URL="../../ERP42_V11_20200205/SubVI/FileInputOutput.llb/BuildLoggingFilePath.vi"/>
+			<Item Name="communication_data.ctl" Type="VI" URL="../Real_Time/control/communication_data.ctl"/>
+			<Item Name="control_data.ctl" Type="VI" URL="../Real_Time/control/control_data.ctl"/>
+			<Item Name="getRelativeTime.vi" Type="VI" URL="../../ERP42_V11_20200205/SubVI/Timing.llb/getRelativeTime.vi"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="recevice_message.vi" Type="VI" URL="../Real_Time/sub_vi/serial_protocol.llb/recevice_message.vi"/>
+			<Item Name="StringArrayToSeperate.vi" Type="VI" URL="../../ERP42_V11_20200205/SubVI/OperateString.llb/StringArrayToSeperate.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="My Real-Time Application" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
