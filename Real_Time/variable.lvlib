@@ -12,7 +12,7 @@
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typedefName1" Type="Str">host_data.ctl</Property>
 		<Property Name="typedefPath1" Type="PathRel">../../Host/control/host_data.ctl</Property>
-		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$LZQ!!!#!!A!!!!!!)!"2!)1ZM&lt;W&gt;H;7ZH8W6O97*M:1!!&amp;5!&amp;!!ZC&lt;W^N8X6Q8X.J:WZB&lt;!!!&amp;U!&amp;!""C&lt;W^N8W2P&gt;WZ@=WFH&lt;G&amp;M!!!41!5!$7&amp;S&lt;6^V=&amp;^T;7&gt;O97Q!&amp;5!&amp;!!^B=GV@:'^X&lt;F^T;7&gt;O97Q!&amp;U!&amp;!""C&gt;7.L:82@&gt;8"@=WFH&lt;G&amp;M!!!:1!5!%G*V9WNF&gt;&amp;^E&lt;X&gt;O8X.J:WZB&lt;!!!/!$RXWX#+A!!!!%.;'^T&gt;&amp;^E982B,G.U&lt;!!C1&amp;!!"Q!!!!%!!A!$!!1!"1!'#7BP=X2@:'&amp;U91!"!!=!!!!!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;.31%!!#!!A!!!!!!-!"2!)1ZM&lt;W&gt;H;7ZH8W6O97*M:1!!&amp;5!&amp;!!ZC&lt;W^N8X6Q8X.J:WZB&lt;!!!&amp;U!&amp;!""C&lt;W^N8W2P&gt;WZ@=WFH&lt;G&amp;M!!!41!5!$7&amp;S&lt;6^V=&amp;^T;7&gt;O97Q!&amp;5!&amp;!!^B=GV@:'^X&lt;F^T;7&gt;O97Q!&amp;U!&amp;!""C&gt;7.L:82@&gt;8"@=WFH&lt;G&amp;M!!!:1!5!%G*V9WNF&gt;&amp;^E&lt;X&gt;O8X.J:WZB&lt;!!!%E!B$72F=(2I8W.P&lt;H2S&lt;WQ!&amp;%!B$G.P&lt;H2S&lt;WR@=G6M98.F!!!21!I!#X2J&lt;76@&lt;W:G=W6U!"&amp;!#A!,&gt;'BS:8.@&gt;G&amp;M&gt;75!1!$RXX&amp;[BQ!!!!%.;'^T&gt;&amp;^E982B,G.U&lt;!!K1&amp;!!#Q!!!!%!!A!$!!1!"1!'!!=!#!!*!!I*;'^T&gt;&amp;^E982B!!%!#Q!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="logging_variable" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>

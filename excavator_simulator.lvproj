@@ -1038,6 +1038,7 @@ AddOutputFilter chunkFilter
 			<Item Name="nixlvapi.dll" Type="Document" URL="nixlvapi.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="predict_logic.vi" Type="VI" URL="../Real_Time/sub_vi/predict_logic.vi"/>
 			<Item Name="rectifi_string.vi" Type="VI" URL="../Real_Time/sub_vi/rectifi_string.vi"/>
 			<Item Name="StringArrayToSeperate.vi" Type="VI" URL="../Real_Time/sub_vi/OperateString.llb/StringArrayToSeperate.vi"/>
 			<Item Name="system_monitoring_data.ctl" Type="VI" URL="../Real_Time/control/system_monitoring_data.ctl"/>
